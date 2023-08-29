@@ -10,7 +10,7 @@ public class PlayWrightRunner_Test extends BaseSteps {
     public void testGetStarted() throws InterruptedException{
     		
     	//GettingStartedPage gPage = new GettingStartedPage(page); - This can be initantiated in BaseSteps class
-		
+		System.out.println("Test Started");
     	gettingStartedPage.clickGetStarted();
     	gettingStartedPage.doSearch();
     	

@@ -52,7 +52,7 @@ public class MultiWindowOrTabPage {
 		newPage.navigate(hrefSys.toString());
 		
 		List<Page> pages = newPage.context().pages();
-		System.out.println(pages.size());
+		System.out.println("There are " + pages.size() +  " tabs.");
 		
 		Thread.sleep(2000);
 		Utility.createScreenshot(newPage);

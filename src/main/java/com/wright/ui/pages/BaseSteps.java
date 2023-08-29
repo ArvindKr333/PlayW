@@ -40,7 +40,8 @@ public class BaseSteps {
 	public void setUp() {
 
 		browser = playwright.chromium()
-				.launch(new BrowserType.LaunchOptions().setHeadless(false).setArgs(List.of("--start-maximized")));
+				.launch(new BrowserType.LaunchOptions().setHeadless(false));
+						//.setArgs(List.of("--start-maximized")));
 		// .setChannel("msedge")
 		browserContext = browser.newContext(new Browser.NewContextOptions().setViewportSize(null));
 		page = browserContext.newPage();
