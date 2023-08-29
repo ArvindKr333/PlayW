@@ -1,0 +1,7 @@
+com\wright\ui\annotations\PlaywrightPage.class
+com\wright\ui\App.class
+com\wright\ui\pages\BaseSteps.class
+com\wright\ui\utils\PropertyUtil.class
+com\wright\ui\utils\Utility.class
+com\wright\ui\pages\GettingStartedPage.class
+com\wright\ui\pages\MultiWindowOrTabPage.class

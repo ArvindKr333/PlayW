@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import com.wright.ui.pages.BaseSteps;
 
-public class PlayWrightRunner_Test extends BaseSteps {
+public class PlayWrightRunner_1 extends BaseSteps {
 	
 	@Test
     public void testGetStarted() throws InterruptedException{
