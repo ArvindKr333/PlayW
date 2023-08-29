@@ -1,7 +1,5 @@
 package com.wright.ui.pages;
 
-import java.nio.file.Paths;
-
 import org.testng.Assert;
 
 import com.microsoft.playwright.Page;
